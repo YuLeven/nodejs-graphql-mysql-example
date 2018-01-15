@@ -23,7 +23,7 @@ class Bacon extends DAO {
      */
     static async findMatching(_, fields) {
         // Returns early with all bacons if no criteria was passed
-        if (Object.keys(fields).length === 0) return this.findAll();
+        if (Object.keys(fields).length === 0) return this.findAll()
         
         // Find matching bacons
         return this.findByFields({
