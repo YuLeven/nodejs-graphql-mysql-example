@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-graphql-mysql-example",
+  "version": "1.0.0",
+  "description": "An example Express based app implementing a GraphQL API using MySQL as its datastore",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YuLeven/nodejs-graphql-mysql-example.git"
+  },
+  "keywords": [
+    "nodejs",
+    "example",
+    "async",
+    "await",
+    "tutorial",
+    "wrapper"
+  ],
+  "author": "Yuri Levenhagen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuLeven/nodejs-graphql-mysql-example/issues"
+  },
+  "homepage": "https://github.com/YuLeven/nodejs-graphql-mysql-example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "mysql": "^2.13.0"
+  }
+}
