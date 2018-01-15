@@ -17,6 +17,10 @@ class Bacon extends DAO {
         return await this.find(id)
     }
 
+    /**
+     * Returns a list of bacons matching the passed fields
+     * @param {*} fields - Fields to be matched
+     */
     static async findMatching(_, fields) {
         // Returns early with all bacons if no criteria was passed
         if (Object.keys(fields).length === 0) return this.findAll();
