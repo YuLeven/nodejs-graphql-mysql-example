@@ -6,7 +6,7 @@ const {
     GraphQLFloat
 } = require('graphql')
 const type = require('./type')
-const Bacon = require("./bacon")
+const Bacon = require('./bacon')
 
 // Defines the mutations
 module.exports = {
