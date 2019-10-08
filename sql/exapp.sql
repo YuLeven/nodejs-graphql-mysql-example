@@ -27,7 +27,7 @@ DROP TABLE IF EXISTS `bacons`;
 CREATE TABLE `bacons` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `type` varchar(45) NOT NULL,
-  `price` decimal(10,0) NOT NULL DEFAULT '0',
+  `price` decimal(10,2) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
