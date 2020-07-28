@@ -1,5 +1,5 @@
 const mysql = require('./mysqlWrapper')
-const { sqlConstants } = require('../util/sqlConstants')
+const sqlConstants = require('../util/sqlConstants')
 
 class DAO {
 
