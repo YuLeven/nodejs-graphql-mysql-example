@@ -16,6 +16,9 @@ cd nodejs-graphql-mysql-example
 # Install dependencies
 npm install
 
+# Create Schema in MySQLfor Linux/Unix/MacOS
+mysql -h <host> -P 3306  -u <user>  -p  < ./sql/exapp.sql
+
 # Run the server
 PORT=8080 MYSQL_DB_USER=root MYSQL_DB_NAME=exapp MYSQL_DB_PASSWORD=secret MYSQL_DB_ADDRESS=localhost MYSQL_DB_POOL_SIZE=10 npm start
 
