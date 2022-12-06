@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/YuLeven/nodejs-graphql-mysql-example#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "express-graphql": "^0.6.11",
     "graphql": "^0.12.3",
     "mysql": "^2.17.1"
